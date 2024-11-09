@@ -38,6 +38,7 @@ namespace WebApplication1.Controllers
             }
         }
 
+
         //post
         [HttpPost("add")]
         public async Task<string> AddUser(UsuarioDTO usuario ) => await  _users.AddUser(usuario); 

@@ -8,5 +8,6 @@ namespace WebApplication1.Interfaces
         public Task<string> AddUser( UsuarioDTO usuarioDTO);
 
         public Task<IEnumerable<UsuarioDTO>> GetAllusers();
+
     }
 }
